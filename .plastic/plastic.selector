@@ -1,0 +1,4 @@
+repository "Rue_deneme_1/Rue_deneme_1@18968249329633@cloud"
+  path "/"
+    br "/main"
+    co "/main"
