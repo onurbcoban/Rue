@@ -422,10 +422,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d21c9d343fe4cf4f91b80bb31a1c1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showCake: {fileID: 478577861}
-  showCreamOne: {fileID: 1471937649}
-  showCreamTwo: {fileID: 463259320}
-  clickOne: 0
+  showCake: {fileID: 478577863}
+  showCreamOne: {fileID: 1471937651}
+  showCreamTwo: {fileID: 463259322}
+  click: 0
   fotsOne: {fileID: 1233125932}
   fotsTwo: {fileID: 116729737}
   fotsThree: {fileID: 561543342}
@@ -869,7 +869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463259321}
-  - component: {fileID: 463259320}
+  - component: {fileID: 463259322}
   m_Layer: 0
   m_Name: ShowCreamTwo
   m_TagString: Untagged
@@ -877,32 +877,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &463259320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463259319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a714d07b78da6e74c962117285b68d0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showCake: {fileID: 478577861}
-  showFlavorOne: {fileID: 351159088}
-  showFlavorTwo: {fileID: 1155120754}
-  showFlavorThree: {fileID: 1144157153}
-  clickTwo: 0
-  cotsOne: {fileID: 630524940}
-  cotsTwo: {fileID: 2141752093}
-  cotsThree: {fileID: 913577787}
-  cttsOne: {fileID: 2026489033}
-  cttsTwo: {fileID: 1193414224}
-  cttsThree: {fileID: 1342374414}
-  cakeToShowFirst: {fileID: 1082693547}
-  cakeToShowSecond: {fileID: 812914520}
-  cakeToShowThird: {fileID: 1424022320}
 --- !u!4 &463259321
 Transform:
   m_ObjectHideFlags: 0
@@ -918,6 +892,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 526883908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463259322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463259319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a714d07b78da6e74c962117285b68d0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showCake: {fileID: 478577863}
+  showFlavorOne: {fileID: 351159088}
+  showFlavorTwo: {fileID: 1155120754}
+  showFlavorThree: {fileID: 1144157153}
+  click: 0
+  cotsOne: {fileID: 630524940}
+  cotsTwo: {fileID: 2141752093}
+  cotsThree: {fileID: 913577787}
+  cttsOne: {fileID: 2026489033}
+  cttsTwo: {fileID: 1193414224}
+  cttsThree: {fileID: 1342374414}
+  cakeToShowFirst: {fileID: 1082693547}
+  cakeToShowSecond: {fileID: 812914520}
+  cakeToShowThird: {fileID: 1424022320}
 --- !u!1 &478577860
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478577862}
-  - component: {fileID: 478577861}
+  - component: {fileID: 478577863}
   m_Layer: 0
   m_Name: ShowCake
   m_TagString: Untagged
@@ -935,27 +935,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &478577861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478577860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25be82d245978394da8a89c17e5ec455, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showCreamOne: {fileID: 1471937649}
-  showCreamTwo: {fileID: 463259320}
-  showFlavorOne: {fileID: 351159088}
-  showFlavorTwo: {fileID: 1155120754}
-  showFlavorThree: {fileID: 1144157153}
-  cakeToShowFirst: {fileID: 1082693547}
-  cakeToShowSecond: {fileID: 812914520}
-  cakeToShowThird: {fileID: 1424022320}
-  clickCount: 0
 --- !u!4 &478577862
 Transform:
   m_ObjectHideFlags: 0
@@ -971,6 +950,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 526883908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &478577863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478577860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25be82d245978394da8a89c17e5ec455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showCreamOne: {fileID: 1471937651}
+  showCreamTwo: {fileID: 463259322}
+  showFlavorOne: {fileID: 351159088}
+  showFlavorTwo: {fileID: 1155120754}
+  showFlavorThree: {fileID: 1144157153}
+  cakeToShowFirst: {fileID: 1082693547}
+  cakeToShowSecond: {fileID: 812914520}
+  cakeToShowThird: {fileID: 1424022320}
+  clickCount: 0
 --- !u!1 &483255370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,7 +1704,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1471937649}
+      - m_Target: {fileID: 1471937651}
         m_TargetAssemblyTypeName: ShowCreamOne, Assembly-CSharp
         m_MethodName: MakeCreamOne
         m_Mode: 1
@@ -2806,10 +2806,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b916941f589f6d45b7202589bcac70d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showCake: {fileID: 478577861}
-  showCreamOne: {fileID: 1471937649}
-  showCreamTwo: {fileID: 463259320}
-  clickThree: 0
+  showCake: {fileID: 478577863}
+  showCreamOne: {fileID: 1471937651}
+  showCreamTwo: {fileID: 463259322}
+  click: 0
   fotsOne: {fileID: 1233125932}
   fotsTwo: {fileID: 116729737}
   fotsThree: {fileID: 561543342}
@@ -2866,10 +2866,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a66416cb3c552144be04fe4f4a36681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showCake: {fileID: 478577861}
-  showCreamOne: {fileID: 1471937649}
-  showCreamTwo: {fileID: 463259320}
-  clickTwo: 0
+  showCake: {fileID: 478577863}
+  showCreamOne: {fileID: 1471937651}
+  showCreamTwo: {fileID: 463259322}
+  click: 0
   fotsOne: {fileID: 1233125932}
   fotsTwo: {fileID: 116729737}
   fotsThree: {fileID: 561543342}
@@ -3777,7 +3777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1471937650}
-  - component: {fileID: 1471937649}
+  - component: {fileID: 1471937651}
   m_Layer: 0
   m_Name: ShowCreamOne
   m_TagString: Untagged
@@ -3785,32 +3785,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1471937649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471937648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65c47bacfc4b28d4791f87af7ec25bce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showCake: {fileID: 478577861}
-  showFlavorOne: {fileID: 351159088}
-  showFlavorTwo: {fileID: 1155120754}
-  showFlavorThree: {fileID: 1144157153}
-  clickOne: 0
-  cotsOne: {fileID: 630524940}
-  cotsTwo: {fileID: 2141752093}
-  cotsThree: {fileID: 913577787}
-  cttsOne: {fileID: 2026489033}
-  cttsTwo: {fileID: 1193414224}
-  cttsThree: {fileID: 1342374414}
-  cakeToShowFirst: {fileID: 1082693547}
-  cakeToShowSecond: {fileID: 812914520}
-  cakeToShowThird: {fileID: 1424022320}
 --- !u!4 &1471937650
 Transform:
   m_ObjectHideFlags: 0
@@ -3826,6 +3800,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 526883908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471937651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471937648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c47bacfc4b28d4791f87af7ec25bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showCake: {fileID: 478577863}
+  showFlavorOne: {fileID: 351159088}
+  showFlavorTwo: {fileID: 1155120754}
+  showFlavorThree: {fileID: 1144157153}
+  click: 0
+  cotsOne: {fileID: 630524940}
+  cotsTwo: {fileID: 2141752093}
+  cotsThree: {fileID: 913577787}
+  cttsOne: {fileID: 2026489033}
+  cttsTwo: {fileID: 1193414224}
+  cttsThree: {fileID: 1342374414}
+  cakeToShowFirst: {fileID: 1082693547}
+  cakeToShowSecond: {fileID: 812914520}
+  cakeToShowThird: {fileID: 1424022320}
 --- !u!1 &1474812618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,7 +3909,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 478577861}
+      - m_Target: {fileID: 478577863}
         m_TargetAssemblyTypeName: ShowCake, Assembly-CSharp
         m_MethodName: MakeCake
         m_Mode: 1
@@ -4083,7 +4083,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 463259320}
+      - m_Target: {fileID: 463259322}
         m_TargetAssemblyTypeName: ShowCreamTwo, Assembly-CSharp
         m_MethodName: MakeCreamTwo
         m_Mode: 1

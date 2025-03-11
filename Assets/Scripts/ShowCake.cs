@@ -26,7 +26,7 @@ public class ShowCake : MonoBehaviour
     {
         clickCount++;
 
-        if(showCreamOne.clickOne == 0 && showCreamTwo.clickTwo == 0)//krema koyduktan sonra kek konulamaz
+        if(showCreamOne.click == 0 && showCreamTwo.click == 0)//krema koyduktan sonra kek konulamaz
         {
 
             if(!cakeToShowFirst.gameObject.activeSelf)
